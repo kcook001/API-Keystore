@@ -2,6 +2,7 @@
 The API Keystore creates, stores, retrieves and updates OAuth tokens and credentials.  The application is designed to support an OAuth token-based authentication and authorization implementation for APIs.  The chief purpose of Keystore is to create and keep track of access token values, which can be used by an API gateway or other architecture to control client application access to specific resources.
 
 Keystore is written in Java using the Spring framework, and maintains a MongoDB repository.
+
 Swagger doc is located at /swagger-ui.html
 
 ## Keys and Tokens
