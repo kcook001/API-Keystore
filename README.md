@@ -21,8 +21,9 @@ An access token consists of a token value, and expiration timestamp and a set of
   - POST
     - Accepts a Key Request JSON object (see below section on object format), which is used to generate and add a new Key to the repository.
     - Returns a 201.Created and the new Key if successful.
-    - Finding or removing/revoking individual keys
-    - These endpoints return or delete (respectively) the individual key matching the supplied criteria (access token value, or user ID and client ID).
+    
+#### Finding or removing/revoking individual keys
+These endpoints return or delete (respectively) the individual key matching the supplied criteria (access token value, or user ID and client ID).
 
 - /keys/{userId}/{clientId}
   - GET
