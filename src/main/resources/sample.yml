@@ -1,0 +1,27 @@
+#RENAME TO application.yml and replace bracketed palceholders with actual values
+server:
+  port: 8080
+  session:
+    cookie:
+      name: KEYSSESSION
+security:
+  basic:
+    enabled: true
+  user:
+    name: [USER NAME]
+    password: [PASSWORD]
+#  oauth2:
+#    client:
+#      clientId: [CLIENT ID]
+#      clientSecret: [CLIENT SECRET]
+#      accessTokenUri: []
+#      userAuthorizationUri: []
+#    resource:
+#      userInfoUri: []
+spring:
+  data:
+    mongodb:
+      database: [DB NAME]
+jwtSigningKey: [JWT SIGNING KEY]
+logging:
+  file: [LOG_PATH/LOG_FILE_NAME.LOG]
